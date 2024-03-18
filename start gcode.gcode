@@ -17,7 +17,8 @@ M92  X80.488 Y80.4 Z400.5 E415       ; calibrated steps/mm
 M906 E450 X690 Y690 Z920             ; set stepper currents in mA
 M301 P10.89 I0.46 D64.67             ; PID Hotend setting
 M304 P88.39 I15.14 D344.15           ; PID Bed setting
-M851 X-43 Y-10 Z-1.675               ; ABL Offset
+; M851 X-43 Y-10 Z-1.700               ; ABL Offset
+M851 X-55 Y-20 Z-0.4               ; ABL Offset
 ; lower z (larger '-' value) = lower first layer printed height
 
 ; auto home
